@@ -2,7 +2,27 @@
 
 A simple arcade-style game built with Python while learning game development concepts through Angela Yu's Python course on Udemy.
 
-## What I Learned
+# Gameplay
+
+- Control the paddle using the keyboard.
+- Keep the ball from going past your paddle.
+- Hit the ball to keep it in play and increase your score.
+- The game ends when the ball gets past the paddle.
+
+# Features
+
+- Paddle controls
+- Ball movement and bouncing
+- Collision detection
+- Score tracking
+- Game-over system
+
+# Tech Used
+
+- Python
+- Turtle Graphics
+
+# What I Learned
 
 - Python Object-Oriented Programming
 - Classes and objects
@@ -13,23 +33,11 @@ A simple arcade-style game built with Python while learning game development con
 - Game mechanics
 - Score tracking
 
-## Tech Used
+# Project Structure
 
-- Python
-- Turtle
-
-## Project Structure
-
-- `main.py` — runs the game
-- `ball.py` — handles the ball
-- `paddle.py` — handles the paddle
-- `scoreboard.py` — handles the score
-
-## How to Run
-
-1. Make sure Python is installed.
-2. Clone this repository.
-3. Run:
-
-```bash
-python main.py
+Arcade-Game/
+├── main.py
+├── ball.py
+├── paddle.py
+├── scoreboard.py
+└── .gitignore
